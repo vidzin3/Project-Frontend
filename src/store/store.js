@@ -43,7 +43,6 @@ export const productList = defineStore('product', {
     },
     updataProductFilter(value){
       this.categorie = value
-      console.log("fdsfd")
     }
   },
 });
