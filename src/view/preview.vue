@@ -32,9 +32,9 @@
                     }
                 }
 
-            // const addToCart = (product) =>{
-            //     console.log('Adding to cart:', product);
-            // }
+            const addToCart = (product) =>{
+                cartStore.addToCart(product)
+            }
             onMounted(() => {
                 getApi()
             })
